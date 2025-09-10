@@ -21,6 +21,10 @@ body {
   padding: 0;
 }
 
+form {
+  display: inline;
+}
+
 li{
     display: inline;  padding: 10px;  margin: 5px; color: #ffffff; background-color: #1E56A0; size: 10px; font-size: 20px; border-radius: 8px; margin-top: 50%;
 }
@@ -94,7 +98,7 @@ li a:hover{
         <li> <a href="Home.html">minha conta</a></li>
         <li> <a href="Descubra.html">trending</a></li>
         <li> <a href="Inicio.html">log-out</a></li>
-        <li><input type="text" name="" id="" style="height: 17px;" placeholder="Pesquisar"></li>
+        <li> <form action="pesquisa.php" method="post"> <input type="text" name="nome" id="nome" style="height: 17px;" placeholder="Pesquisar"></form></li>
         </ul>
 
         
